@@ -1,5 +1,5 @@
 {
-    "name": "@ivolutio/vue-tagsinput",
+    "name": "@metachef/vue-tagsinput",
     "version": "3.0.0",
     "description": "A simple tags input with typeahead made with Vue 3",
     "main": "src/main.js",
@@ -19,10 +19,10 @@
             "email": "james@fasttortoise.co.uk",
             "url": "https://james090500.com"
         },
-          {
-            "name": "Ivo Ketelaar",
-            "email": "ivo@famketelaar.nl",
-            "url": "https://ivoketelaar.nl"
+        {
+            "name": "MetaChef",
+            "email": "info@metachef.nl",
+            "url": "https://metachef.nl"
         }
     ],
     "license": "MIT",
@@ -49,5 +49,8 @@
         "webpack-dev-server": "^4.7.4",
         "vue": "^3.2.31"
     },
-    "repository": "https://github.com/Ivolutio/vue-tagsinput"
+    "repository": "https://github.com/MetaChef/vue-tagsinput",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
 }
